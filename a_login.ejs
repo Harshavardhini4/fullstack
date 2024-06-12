@@ -3,62 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bioluminescence: Nature's Light Show</title>
+    <title>Cricket Fan Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff;
-            color: #333;
+            background-color: #f0f0f0;
         }
+
         header {
-            background: #000;
-            color: #fff;
-            padding: 1em 0;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
             text-align: center;
         }
-        .container {
-            padding: 2em;
+
+        nav ul {
+            list-style: none;
+            padding: 0;
         }
-        .image-container {
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            background-color: white;
+            margin: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .player-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin: 1rem 0;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        .player-card img {
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
             text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bioluminescence: Nature's Light Show</h1>
+        <h1>Welcome to the Cricket Fan Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#news">Latest News</a></li>
+                <li><a href="#schedule">Match Schedule</a></li>
+                <li><a href="#players">Player Info</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <p>Bioluminescence is the production and emission of light by living organisms. It is a widespread phenomenon in the ocean, where it is primarily produced by marine organisms such as jellyfish, plankton, and certain species of fish.</p>
-        
-        <div class="image-container">
-            <img src="https://www.hindustantimes.com/ht-img/img/2023/03/03/550x309/beach_2_1677831177785_1677831508035_1677831508035.jpg" alt="Bioluminescent plankton glowing in the ocean">
+
+    <section id="news">
+        <h2>Latest News</h2>
+        <article>
+            <h3>Big Match Coming Up!</h3>
+            <p>The most anticipated match of the season is just around the corner. Stay tuned for more updates.</p>
+        </article>
+        <article>
+            <h3>Player of the Month</h3>
+            <p>Congratulations to our player of the month, who has shown outstanding performance.</p>
+        </article>
+    </section>
+
+    <section id="schedule">
+        <h2>Match Schedule</h2>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Teams</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>June 20, 2024</td>
+                <td>Team A vs Team B</td>
+                <td>chinaswamy stadium</td>
+            </tr>
+            <tr>
+                <td>June 25, 2024</td>
+                <td>Team C vs Team D</td>
+                <td>Wankade stadium</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="players">
+        <h2>Player Information</h2>
+        <div class="player-card">
+            <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-71606,resizemode-75,msid-104793567/news/sports/cwc-2023-skipper-rohit-sharma-set-to-raise-a-ton-of-a-different-kind-against-england-today/indias-captain-rohit-sharma.jpg" alt="Rohit sharma">
+            <h3>Player 1</h3>
+            <p>Position: Batsman</p>
+            <p>Matches: 500</p>
+            <p>Runs: 200000</p>
         </div>
-        
-        <h2>How Does Bioluminescence Work?</h2>
-        <p>Bioluminescence occurs through a chemical reaction that produces light energy within an organism's body. This reaction involves a light-emitting molecule called luciferin and an enzyme called luciferase. When luciferin reacts with oxygen, it produces light.</p>
-        
-        <h2>Why Do Organisms Produce Light?</h2>
-        <p>Organisms use bioluminescence for various purposes, including attracting mates, deterring predators, and luring prey. For example, the anglerfish uses a bioluminescent lure to attract unsuspecting prey in the dark depths of the ocean.</p>
-        
-        <h2>Where Can You See Bioluminescence?</h2>
-        <p>Bioluminescence can be seen in various parts of the world, especially in marine environments. Some popular places to witness this natural light show include:</p>
-        <ul>
-            <li>Puerto Mosquito on Vieques Island, Puerto Rico</li>
-            <li>Halong Bay, Vietnam</li>
-            <li>Jervis Bay, Australia</li>
-            <li>San Diego, California, USA</li>
-        </ul>
-        
-        <h2>Conclusion</h2>
-        <p>Bioluminescence is a captivating natural phenomenon that illuminates the wonders of the ocean and other environments. It showcases the beauty and complexity of the natural world, leaving us in awe of the many ways life can adapt and thrive.</p>
-    </div>
+        <div class="player-card">
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202404/virat-kohli-061308633-16x9_0.jpg?VersionId=wwIZTrh1vnpjFczjwAJCROXi7evBNuNo&size=690:388" alt="Virat Kohli">
+            <h3>Player 2</h3>
+            <p>Position: Bowler</p>
+            <p>Matches: 45</p>
+            <p>Wickets: 100</p>
+        </div>
+    </section>
 </body>
 </html>
